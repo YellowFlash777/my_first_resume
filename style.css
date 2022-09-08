@@ -5,6 +5,8 @@ body {font-size: 16px;
     background-color: #DCDCDC;
     background: #f1f1f1;
     font-weight: normal;
+    background: url(./intro-bg.jpg) center no-repeat;
+    background-size: cover;
 }
 .bio  { display: flex;
     margin-bottom: 20px;
@@ -127,4 +129,11 @@ a {
 }
 .form-row .form-group:last-child {
     margin-right: 0;
+}
+#text, #message, #email {
+    color: orange;
+    font-weight: 900; 
+}
+.form-group {
+color: yellow
 }
